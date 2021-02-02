@@ -51,9 +51,9 @@ class Config(object):
     YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl@MyTorrentDrive_BOT")
     RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", """type = drive
 scope = drive
-root_folder_id =
+root_folder_id = 1nvU3oWuhh5tiyPUBz7AECQScv0Pvh9Qs
 token = {"access_token":"ya29.A0AfH6SMCvaLMWW6iZacHYL43lGmR9QlSDfKXEFqCq52KTFmogEsc6EjFwcFIesczqQQNF52H9WVi1jGZgDWJF3R_19Rs-_hAcy7YeXIN-Tl3SNLB_dx4VmVPrGfvSJg3iACECKghtI4XTDBFZwtX8XD6esv9r","token_type":"Bearer","refresh_token":"1//0gdQV7KM1nnJrCgYIARAAGBASNwF-L9IralYTN1yMMrIcDDtrYLc4rBhVWENhbR-qJQxa1v0DzgfmUkYBtAW4PiZYoMqGx_IMObc","expiry":"2021-02-02T10:59:43.6364416+05:30"}
-team_drive = 0AKZow1MUSd9aUk9PVA """)
+team_drive = 0AKZow1MUSd9aUk9PVA""")
     DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "TorrentLeech-Gdrive")
     GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech@MyTorrentDrive_BOT")
     INDEX_LINK = os.environ.get("INDEX_LINK", "https://bold-scene-480b.satyu.workers.dev")
